@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date Founded:</strong>
+  <%= @company.founded_date %>
+</p>
+
+<p>
+  <strong>Company Name:</strong>
+  <%= @company.company_name %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @company.industry %>
+</p>
+
+<p>
+  <strong>Function:</strong>
+  <%= @company.function %>
+</p>
+
+<p>
+  <strong>Number of jobs:</strong>
+  <%= @company.number_of_jobs %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>

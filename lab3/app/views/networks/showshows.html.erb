@@ -1,0 +1,7 @@
+<h1><%= "#{network.name}'s Shows"%></h1>
+
+<% @shows.each do |s| %>
+
+	<% s.name %> | <%= s.genre %><br/>
+
+<% end %>

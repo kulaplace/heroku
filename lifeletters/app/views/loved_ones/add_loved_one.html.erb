@@ -1,0 +1,13 @@
+<h1>How many loved ones would you like?</h1>
+
+
+<% @loved_ones.each do |loved_one| %>
+	<%= f.label :number_loved_ones %><br>
+    <%= f.number_field :number_loved_ones %>
+
+
+
+<% end%>
+ 
+
+

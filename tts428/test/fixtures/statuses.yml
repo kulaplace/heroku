@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2014-04-29 10:52:20
+  number: 1
+  posting: MyText
+
+two:
+  time: 2014-04-29 10:52:20
+  number: 1
+  posting: MyText

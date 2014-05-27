@@ -1,0 +1,2 @@
+module LovedOnesHelper
+end

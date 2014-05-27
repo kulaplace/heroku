@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_posted: 2014-04-30 11:22:12
+  date_applied: 2014-04-30 11:22:12
+  interview: false
+
+two:
+  date_posted: 2014-04-30 11:22:12
+  date_applied: 2014-04-30 11:22:12
+  interview: false

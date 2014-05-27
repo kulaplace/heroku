@@ -1,0 +1,6 @@
+<%=form_tag("/loved_ones/number_loved_ones", method: "post") do %>
+	<%= label_tag(:number_loved_ones, "Number of Loved Ones")%>
+	<%= text_field_tag(:number_loved_ones)%>
+	<%= submit_tag("Go")%>
+<%end%>
+
